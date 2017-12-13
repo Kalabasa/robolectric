@@ -195,12 +195,12 @@ public class PerfStatsCollector {
 
     @Override
     public String toString() {
-      return "Metric{" +
-          "name='" + name + '\'' +
-          ", count=" + count +
-          ", elapsedNs=" + elapsedNs +
-          ", success=" + success +
-          '}';
+      return "Metric{"
+          + "name='" + name + '\''
+          + ", count=" + count
+          + ", elapsedNs=" + elapsedNs
+          + ", success=" + success
+          + '}';
     }
   }
 
